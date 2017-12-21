@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<danielrodrigues translate="label" module="parcelaspagproduto">
+            <label>Daniel Rodrigues</label>
+            <sort_order>0</sort_order>
+        </danielrodrigues>
+	  </tabs>
+	  <sections>
+		<parcelapagproduto  translate="label" module="parcelaspagproduto">                    
+		<label>Parcelas na Página de Produto</label>
+		<tab>danielrodrigues</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <configuracoes translate="label"> 
+					  <label>Configurações</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <maxparcelas translate="label">
+                            <label>Quantidade máxima de parcelas</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </maxparcelas>
+                          <maxsemjuros translate="label">
+                            <label>Quantidade de parcelas sem juros</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </maxsemjuros>
+                          <minvalor translate="label">
+                            <label>Valor mínimo de cada parcela</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </minvalor>
+					   </fields>
+					   </configuracoes>
+					</groups>
+		</parcelapagproduto>
+	  </sections>
+</config>

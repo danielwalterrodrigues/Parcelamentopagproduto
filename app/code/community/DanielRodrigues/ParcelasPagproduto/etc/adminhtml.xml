@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+	<config>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<parcelapagproduto translate="title" module="parcelaspagproduto">
+											<title>Parcelas na Página de Produto Section</title>
+											<sort_order>0</sort_order>
+										</parcelapagproduto>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</config>

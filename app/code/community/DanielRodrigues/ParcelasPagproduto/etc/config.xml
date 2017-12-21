@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <DanielRodrigues_ParcelasPagproduto>
+      <version>0.1.0</version>
+    </DanielRodrigues_ParcelasPagproduto>
+  </modules>
+  <global>
+    <helpers>
+      <parcelaspagproduto>
+        <class>DanielRodrigues_ParcelasPagproduto_Helper</class>
+      </parcelaspagproduto>
+    </helpers>
+  </global>
+</config> 

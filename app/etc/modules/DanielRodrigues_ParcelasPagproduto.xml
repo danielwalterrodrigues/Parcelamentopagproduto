@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <DanielRodrigues_ParcelasPagproduto>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+    </DanielRodrigues_ParcelasPagproduto>
+  </modules>
+</config>
